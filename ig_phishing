@@ -67,7 +67,7 @@ cp -r dump.sql $PREFIX/bin
 cd $PREFIX/bin
 mariadb -u root -e "create database instagram"
 mariadb -u root instagram < dump.sql
-echo -e "\e[1;36m La DATABASE INSTAGRAM SE CREO CON EXITO" 
+echo -e "\e[1;36m LA DATABASE INSTAGRAM SE CREO CON EXITO" 
 sleep 1.5
 clear
 banner
