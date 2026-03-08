@@ -107,7 +107,7 @@ cd Tunel-ngrok;ls
 chmod +x *;ls
 bash install.sh
 sleep 1.5
-ngrok authtoken 39uqsazmWs1pIQToQJimp3e620h_sFbuPPpELygCd9Lh2wo
+ngrok authtoken 3AePCu6MAR1dBELOhDBtR1T5093_5SDEvfcHGb4DHtiWDY71Y
 
 ngrok http 4545
 fi
